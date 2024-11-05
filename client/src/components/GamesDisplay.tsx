@@ -22,7 +22,7 @@ const GamesDisplay = () => {
          fetchGames();
      }, []);
   return (
-    <div>
+    <div className="my-3 px-2">
       <div>
         <h1 className="text-5xl font-bold mb-4">All games</h1>
       </div>

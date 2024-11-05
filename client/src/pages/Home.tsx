@@ -1,19 +1,13 @@
-import AppSidebar from "@/components/AppSidebar";
+import Mainlayout from "@/layout/Mainlayout";
 import GamesDisplay from "@/components/GamesDisplay";
-import Navbar from "@/components/Navbar";
+
 const Home = () => {
    
-    return (
-      <div className="bg-black h-full w-full flex  text-white gap-4">
-        <div className="flex flex-col items-center">
-         <AppSidebar/>
-        </div>
-            <div className="w-full">
-                <Navbar />
-                <GamesDisplay/>
-        </div>
-      </div>
-    );
+  return (
+    <Mainlayout>
+        <GamesDisplay />
+    </Mainlayout>
+  );
 }
 
 export default Home
